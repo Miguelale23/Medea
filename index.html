@@ -3,40 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <title>Para Mi Amor - San Valentín</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <img src="assets/logo.png" alt="Logo" class="logo">
-        <h1>Bienvenido a Mi Página Web</h1>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-mi">Sobre Mí</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <header>
+            <h1>💖 Para Mi Amor 💖</h1>
+            <p>¡Feliz San Valentín, mi vida! Eres lo mejor que me ha pasado.</p>
+        </header>
 
-    <section id="inicio">
-        <h2>Inicio</h2>
-        <p>Esta es la sección de inicio de mi página web.</p>
-    </section>
+        <section class="gallery">
+            <h2>Nuestros Momentos</h2>
+            <div class="photo-grid">
+                <div class="photo" onclick="showPhoto('assets/foto1.jpg')">
+                    <img src="assets/foto1.jpg" alt="Foto 1">
+                </div>
+                <div class="photo" onclick="showPhoto('assets/foto2.jpg')">
+                    <img src="assets/foto2.jpg" alt="Foto 2">
+                </div>
+                <div class="photo" onclick="showPhoto('assets/foto3.jpg')">
+                    <img src="assets/foto3.jpg" alt="Foto 3">
+                </div>
+            </div>
+        </section>
 
-    <section id="sobre-mi">
-        <h2>Sobre Mí</h2>
-        <p>Aquí puedes escribir información sobre ti o tu proyecto.</p>
-    </section>
+        <section class="message">
+            <h2>Un Mensaje para Ti</h2>
+            <p>
+                Querida [Nombre de tu novia],<br>
+                Hoy quiero recordarte lo especial que eres para mí. Cada momento a tu lado es un regalo, y no puedo imaginar mi vida sin ti. Gracias por ser mi compañera, mi apoyo y mi razón para sonreír. Te amo más de lo que las palabras pueden expresar. 💕
+            </p>
+        </section>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Puedes contactarme en: <a href="mailto:correo@example.com">correo@example.com</a></p>
-    </section>
+        <footer>
+            <p>Con todo mi amor, [Tu nombre] ❤️</p>
+        </footer>
+    </div>
 
-    <footer>
-        <p>&copy; 2023 Mi Página Web. Todos los derechos reservados.</p>
-    </footer>
+    <!-- Ventana modal para mostrar fotos -->
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modal-img" class="modal-content">
+    </div>
 
     <script src="script.js"></script>
 </body>
