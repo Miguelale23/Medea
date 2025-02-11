@@ -3,50 +3,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Para Mi Amor - San Valentín</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>💖 Para Mi Amor 💖</h1>
-            <p>¡Feliz San Valentín, mi vida! Eres lo mejor que me ha pasado.</p>
-        </header>
+    <title>Medea te quierooooo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Importacion Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"></head>
+    <link rel="stylesheet" href="fonts.css">
+    <style>
+        h1{
+            font-family: 'poppins';
+            font-weight: 600;
+            font-size: 57px;
+            background-image: linear-gradient(to right, #ff49bc, #b0e6ff);
+            background-clip: text;
+            -webkit-background-clip: text; /* Hace que el gradiente se aplique solo al texto */
+            color: transparent; /* El color del texto debe ser transparente para ver el gradiente */
+        }
+        .text-razones-1{
+            font-family: 'poppins';
+            font-weight: 600;
+            font-size: 150px;
+            background-image: linear-gradient(to right, #ff00c8, #9203ff);
+            background-clip: text;
+            -webkit-background-clip: text; /* Hace que el gradiente se aplique solo al texto */
+            color: transparent; /* El color del texto debe ser transparente para ver el gradiente */
+            margin-bottom: 0;
+        }
+        .text-razones-2{
+            font-family: 'poppins';
+            font-weight: 600;
+            font-size: 40px;
+            background-image: linear-gradient(to right, #ff00c8, #9203ff);
+            background-clip: text;
+            -webkit-background-clip: text; /* Hace que el gradiente se aplique solo al texto */
+            color: transparent; /* El color del texto debe ser transparente para ver el gradiente */
+        }
+        .bg-custom {
+            background-image: url("assets/fondo.jpg");
+            background-repeat: repeat;
+            height: 100vh; /* Toda la pantalla */
+        }
+        .container-intro{
 
-        <section class="gallery">
-            <h2>Nuestros Momentos</h2>
-            <div class="photo-grid">
-                <div class="photo" onclick="showPhoto('assets/foto1.jpg')">
-                    <img src="assets/foto1.jpg" alt="Foto 1">
-                </div>
-                <div class="photo" onclick="showPhoto('assets/foto2.jpg')">
-                    <img src="assets/foto2.jpg" alt="Foto 2">
-                </div>
-                <div class="photo" onclick="showPhoto('assets/foto3.jpg')">
-                    <img src="assets/foto3.jpg" alt="Foto 3">
-                </div>
+        }
+        .container-razones{
+            background-color: #ff49bc;
+        }
+        li{
+            font-family: 'poppins';
+            font-weight: 600;
+            font-size: 25px;
+            color: rgb(119, 0, 255);
+            margin-left: 7%;
+        }
+    </style>
+<body class="bg-custom">
+    <div class="m-1">
+        <div class="container-intro d-flex justify-content-center text-center">
+            <div class="col-10">
+                <h1>MEDEA TE QUIEROOOOO</h1>
+                <img src="assets/medea14.png" class = "img-fluid rounded border">
             </div>
-        </section>
-
-        <section class="message">
-            <h2>Un Mensaje para Ti</h2>
-            <p>
-                Querida [Nombre de tu novia],<br>
-                Hoy quiero recordarte lo especial que eres para mí. Cada momento a tu lado es un regalo, y no puedo imaginar mi vida sin ti. Gracias por ser mi compañera, mi apoyo y mi razón para sonreír. Te amo más de lo que las palabras pueden expresar. 💕
-            </p>
-        </section>
-
-        <footer>
-            <p>Con todo mi amor, [Tu nombre] ❤️</p>
-        </footer>
+        </div>
+        <br>
+        <div class="m-3 container-razones d-flex flex-column justify-content-center">
+            <div class="text-center">
+                <p class="text-razones-1">113</p>
+                <p class="m-4 text-razones-2">Razones por las que te quiero</p>
+            </div>
+            <div class="m-4">
+                <ol>
+                    <li>tu sonrisa</li>
+                    <li>tu humor</li>
+                    <li>tu humor negrísimo(nigga)</li>
+                    <li>tus gustos musicales</li>
+                    <li>tu dramatismo</li>
+                    <li>tus ojos</li>
+                    <li>TUS OJOS (merece dos puestos)</li>
+                    <li>te gusta el deporte</li>
+                    <li>te gusta el judo y la natación</li>
+                    <li>te gustan las películas que a mí me gustarían</li>
+                    <li>juegas conmigo a juegos</li>
+                    <li>te interesas por mis gustos</li>
+                    <li>me preguntas que tal cuando tengo cosas importantes</li>
+                    <li>tu inteligencia</li>
+                    <li>te preocupas cuando estoy malo</li>
+                    <li>te preocupas cuando estudio mucho</li>
+                    <li>vas conmigo a excursiones de artes marciales</li>
+                    <li>estuviste toda la presentación de la appEuropa</li>
+                    <li>viniste a Torrevieja y conociste a mis amigos</li>
+                    <li>haces surf y te gusta nadar</li>
+                    <li>tus gustos de comida exóticos</li>
+                    <li>te gustan las oreo con ketchup ? okay</li>
+                    <li>los datiles y las gildas mas manejable eso</li>
+                    <li>gritas MARICÓN en las montañas rusas</li>
+                    <li>dices acho</li>
+                    <li>tu estilo de vestir ropa</li>
+                    <li>lo bien que te quedan ESAS MANOLETINAS</li>
+                    <li>te ries cuando suelto bastadas</li>
+                    <li>nos llamos xoxete y nos damos el lujazo</li>
+                    <li>tu forma de pensar sobre la vida</li>
+                    <li>tu forma de esforzarte y conseguir cosas</li>
+                    <li>tus logros y tu ambición</li>
+                    <li>las fotocomidas con flash</li>
+                    <li>mirarme como una camara de vigilancia en la capea (sin eso aqui no estariamos)</li>
+                    <li>ser penosa en bolos</li>
+                    <li>NO ser la campeona (soy yo obviamente)</li>
+                    <li>escribirme en las prácticas de coche cuando iba el compañero para no aburrirme</li>
+                    <li>eres literalmente un perro salchicha</li>
+                    <li>eres literalmente un pez luna</li>
+                    <li>eres literalmente un manatí</li>
+                    <li>eres literalmente una rata(mona)</li>
+                    <li>tu pelo (no eres calva)</li>
+                    <li>tu pelo semirecogido con coletilla</li>
+                    <li>kebab mixto ya</li>
+                    <li>la sonrisa inversa que pones cuando te enfadas</li>
+                    <li>me enseñaste a tocar algo en piano (casi)</li>
+                    <li>me cuentas todos los cotilleos</li>
+                    <li>escuchas cuando cuento los cotilleos</li>
+                    <li>los abrazos largos</li>
+                    <li>los besos largos</li>
+                    <li>los besos raros</li>
+                    <li>viniste conmigo al gimnasio y te esforzaste</li>
+                    <li>eres muy buena persona</li>
+                    <li>eres la terapeuta de tus amigos</li>
+                    <li>dejaste que vaya a verte en los conciertos aunque te diese verguenza</li>
+                    <li>eres igual de rara que yo y soportas que sea tan raro</li>
+                    <li>celebrabas todos los corrects (BYEBYE MARP 5.4)</li>
+                    <li>me trajiste un paraguas de chocolate</li>
+                    <li>las mañanas que no iba a clase por seguir abrazado contigo</li>
+                    <li>tus caricias</li>
+                    <li>escuchas todas las canciones que te mando aunque sean de myke towers</li>
+                    <li>literal osea hasta escuchaste a DJ RAMON SUCESO</li>
+                    <li>me enseñaste el rap de la oscam (maravilla)</li>
+                    <li>que no te de verguenza tocarme el culo en publico</li>
+                    <li>me regalaste a norbertin</li>
+                    <li>escucharte me calma y me olvido del resto</li>
+                    <li>ser guapisima (aunque creas que no)</li>
+                    <li>por abrir los sobres pokemon aunque no te toque nada</li>
+                    <li>enseñarme compositores y obras que te gustan</li>
+                    <li>jaja 69 ajajjajaj</li>
+                    <li>jugar omori conmigo (tienes que pasartelo 100%)</li>
+                    <li>tu madurez y tu forma de arreglar problemas</li>
+                    <li>tus sticker y emojis nigga de whatsapp</li>
+                    <li>escuchas y no juzgas</li>
+                    <li>como sonries al mirarme</li>
+                    <li>tu forma de hacer el 😜🤘</li>
+                    <li>los tiktoks que me mandas para decir 'eres tu'</li>
+                    <li>como me explicas cosas que no entiendo de tu carrera</li>
+                    <li>tu risa</li>
+                    <li>cuando nos ponemos a hacer el down y te ries</li>
+                    <li>las noches que se nos pasaba la hora y ni cenabamos</li>
+                    <li>cuando vuelvo de clase y encuentro a norbertin en la cama arropado</li>
+                    <li>los paseos que dabamos por el parque del oeste y acababas contandome como te abrias la cabeza</li>
+                    <li>falora</li>
+                    <li>tu olor</li>
+                    <li>cuando te quedas mis camisetas y veo que las llevas en el comedor</li>
+                    <li>como me miras y buscas aunque este la sala llena de gente</li>
+                    <li>saber poner límites y evitar a las personas que te dañan</li>
+                    <li>tu forma de poner la ceja roneanta</li>
+                    <li>las cenas de sushi guarrindongo</li>
+                    <li>las cenas de keba</li>
+                    <li>tu oido izquierdo premium y el derecho tmb</li>
+                    <li>tu forma de apoyarte en mi hombro</li>
+                    <li>tus calcetines exóticos</li>
+                    <li>regalarme unas pegatinas de omori, la sudadera gris y mucho mas</li>
+                    <li>tus mejillas redondas y suaves</li>
+                    <li>no huir despavorida cuando te dije que fui otaku</li>
+                    <li>respetar mi culo porque eso no va a suceder jajajajjas</li>
+                    <li>por enseñarme tus peliculas favoritas y verlas juntos</li>
+                    <li>tus manos</li>
+                    <li>tu familia curiosa</li>
+                    <li>tu forma de mirarme al despertarte</li>
+                    <li>tus bogiriboingboing</li>
+                    <li>por sortar tener UN PEDAZO DE culo (tienes mas que yo)</li>
+                    <li>tu cuerpo</li>
+                    <li>los soniditos que haces al dormir</li>
+                    <li>que te gusten los patos y los animales</li>
+                    <li>dejarme robarte las gomas de pelo</li>
+                    <li>enseñarme a hacer coletas y proximamente trenzas</li>
+                    <li>que te caigan bien mis amigos y familia</li>
+                    <li>tu voz y tu acento</li>
+                    <li>nuestro odio compartido a ciertas etnias</li>
+                    <li>porque el tiempo contigo se me pasa volando</li>
+                    <li>ser la mejor novia que uno puede pedir</li>
+                    <li>por un futuro juntos y por dejarme vivir mi vida junto a ti</li>
+                </ol>
+            </div>
+        </div>
     </div>
+    
 
-    <!-- Ventana modal para mostrar fotos -->
-    <div id="modal" class="modal">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <img id="modal-img" class="modal-content">
-    </div>
-
-    <script src="script.js"></script>
-</body>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script></body>
 </html>
