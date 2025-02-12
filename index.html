@@ -43,7 +43,6 @@
             position: relative;
             background-image: url("assets/fondo.jpg");
             background-repeat: repeat;
-            overflow-x: hidden;
             height: 100vh; /* Toda la pantalla */
         }
         .container-intro{
@@ -68,17 +67,8 @@
             position: relative;
             transform: translateX(100vw);
         }
-        .oculto2{
-            position: relative;
-            left: 100%;
-            transition: transform 0.5s ease-in-out;
-        }
-        .oculto2-shown{
-            position: relative;
-            transform: translateX(-100vw);
-        }
     </style>
-<body class="bg-custom">
+<body class="bg-custom" id="main-container">
     <div class="m-1">
         <div class="container-intro d-flex justify-content-center text-center">
             <div class="col-10">
@@ -93,10 +83,6 @@
             <div class="m-5 d-flex justify-content-center text-center flex-column">
                 <h1> TU Y YO </h1>
                 <img src="assets/WhatsApp Image 2025-02-12 at 15.57.06.jpeg" class="img-fluid">
-            </div>
-        </div>
-        <div class="oculto2" id="oculto2">
-            <div class="m-5 d-flex justify-content-center text-center flex-column">
                 <img src="assets/915513e1203c0120b91d1e48df2e70da.jpg" class="img-fluid">
             </div>
         </div>
