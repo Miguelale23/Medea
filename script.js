@@ -1,4 +1,4 @@
-document.addEventListener("scroll", function () {
+document.addEventListener("touchstart", function () {
     let oculto1 = document.getElementById("oculto1");
     let oculto2 = document.getElementById("oculto2");
 
